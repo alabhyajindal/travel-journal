@@ -6,6 +6,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #2b283a;
   max-width: 550px;
   margin: 0 auto;
 }
@@ -32,4 +33,70 @@ body {
   font-weight: 500;
   font-size: 14.5px;
   letter-spacing: -0.075em;
+}
+
+/* Cards */
+
+.card-cont {
+  margin-left: 40px;
+  margin-top: 60px;
+
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card-loc {
+  display: flex;
+  align-items: center;
+}
+
+.marker-icon {
+  height: 10px;
+  color: #f55a5a;
+}
+
+.location {
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.17em;
+
+  margin-left: 4px;
+}
+
+.maps {
+  color: #918e9b;
+  font-size: 10px;
+  text-decoration: underline;
+
+  margin-left: 12px;
+}
+
+.card-heading {
+  margin-top: 7px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.dates {
+  font-weight: 700;
+  font-size: 10.5px;
+
+  margin-top: 7px;
+}
+
+.desc {
+  font-size: 10.5px;
+  line-height: 150%;
+
+  width: 326px;
+
+  margin-top: 9px;
 }
