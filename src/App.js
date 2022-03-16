@@ -6,7 +6,7 @@ import data from "./data";
 import Footer from "./components/Footer";
 
 export default function App() {
-  const cardElements = data.map((x) => <Card key={x.id} title={x.title} />);
+  const cardElements = data.map((x) => <Card key={x.id} {...x} />);
 
   return (
     <>
