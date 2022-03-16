@@ -22,7 +22,7 @@ export default function Cards(props) {
           <p className="desc">{props.description}</p>
         </div>
       </div>
-      <hr className="breakline" />
+      {props.id != 3 && <hr className="breakline" />}
     </>
   );
 }

@@ -24,13 +24,13 @@ export default [
 
   {
     id: 3,
-    title: "Tiger's Point",
+    title: "Tiger's Leap",
     location: "Lonavala",
     googleMapsUrl: "https://goo.gl/maps/H5nnY6SWMMeydF8U8",
     startDate: "18 Feb, 2022",
     endDate: "19 Feb, 2022",
     description:
-      "Tiger Point in Lonavala is a 650-meter high hilltop offering panoramic views of the lush green valley with lakes and waterfalls. The best time to visit this attraction is during the monsoon.",
+      "Tiger Leap in Lonavala is a 650-meter high hilltop offering panoramic views of the lush green valley with lakes and waterfalls. The best time to visit this attraction is during the monsoon.",
     imageUrl: "https://source.unsplash.com/g0oaUU2GuFE",
   },
 ];
