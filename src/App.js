@@ -10,7 +10,7 @@ export default function App() {
   return (
     <>
       <Header />
-      {cardElements}
+      <div className="card-elem-cont">{cardElements}</div>
     </>
   );
 }

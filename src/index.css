@@ -9,6 +9,7 @@ body {
   color: #2b283a;
   max-width: 550px;
   margin: 0 auto;
+  background-color: #e5e5e5;
 }
 
 /* Header */
@@ -37,13 +38,25 @@ body {
 
 /* Cards */
 
+.card-elem-cont {
+  background-color: #fff;
+}
+
 .card-cont {
   margin-left: 40px;
-  margin-top: 60px;
+  padding-top: 36px;
 
   display: flex;
   gap: 19px;
   align-items: center;
+}
+
+.card-cont:first-child {
+  padding-top: 60px;
+}
+
+.card-cont:last-child {
+  padding-bottom: 28px;
 }
 
 .image {
