@@ -12,8 +12,8 @@ export default [
   },
   {
     id: 2,
-    title: "Umiam Lake Returns",
-    location: "Shillong",
+    title: "Tiger Point",
+    location: "Lonavala",
     googleMapsUrl: "https://goo.gl/maps/L9vCnNEzFBL6FhNh7",
     startDate: "10 Nov, 2021",
     endDate: "11 Nov, 2021",
@@ -23,8 +23,8 @@ export default [
   },
   {
     id: 3,
-    title: "Umiam Lake III",
-    location: "Shillong",
+    title: "Taj Mahal",
+    location: "Agra",
     googleMapsUrl: "https://goo.gl/maps/L9vCnNEzFBL6FhNh7",
     startDate: "10 Nov, 2021",
     endDate: "11 Nov, 2021",
